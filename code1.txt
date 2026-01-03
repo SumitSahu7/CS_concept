@@ -1,0 +1,56 @@
+## How the Internet Works?  
+
+## 1. History of the Web (Web 1.0 → Web 3.0)  
+```
+Web 1.0 was read-only. Users could only open pages and read information. There was no login, no comments, no interaction.
+Web 2.0 made the web interactive. Users could create content, like posts, videos, and comments. Examples are social media and web apps.
+Web 3.0 focuses on decentralization. Instead of one company owning data, blockchain allows users to control data and digital assets.
+
+Interview tip: Web 2.0 = interaction, Web 3.0 = decentralization + blockchain.
+```
+
+## 2. How Computers Communicate with Each Other
+```
+Computers communicate using protocols, which are agreed rules.
+The most important one on the internet is TCP/IP.
+
+Data is not sent as one big piece. It is broken into small packets.
+Each packet contains the source address, destination address, and data.
+
+Interview tip: “Computers communicate using TCP/IP and packet switching.”
+```
+
+## 3. How Data Travels All Over the World
+```
+When you request a website, your data does not travel in a straight line.
+It passes through routers, switches, and servers.
+
+Routers decide the best path for each packet.
+If one path is busy or broken, routers choose another path automatically.
+
+Interview tip: This is called packet switching, not direct connection.
+```
+## 4. Domain Name, IP Address, MAC Address & Routing
+```
+A domain name is for humans (example: google.com).
+An IP address is for machines (example: 142.250.182.14).
+
+A MAC address is a hardware address used inside local networks.
+It never changes and is fixed to the network device.
+
+Routing means deciding how data moves from source IP to destination IP through routers.
+
+Interview tip: Domain → DNS → IP → Routing → Server.
+```
+
+## 5. How ISP and DNS Work Together
+```
+Your ISP gives you internet access. Without ISP, you cannot connect to the internet.
+
+When you type a domain name, DNS converts it into an IP address.
+Your ISP contacts the DNS server, gets the IP, and then fetches data from the server.
+
+Finally, the data is sent back to your device as packets.
+
+Interview tip: DNS resolves names, ISP delivers data.
+```
